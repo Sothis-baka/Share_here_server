@@ -12,11 +12,12 @@ Using Apollo-server, Graphql as backend, React as front end.
 
 Using Bootstrap. Grid for layout and icons.
 
-### Use
+### Usage
 
 run 
 
 ```
+npm install
 npm start
 ```
 
