@@ -1,0 +1,19 @@
+{
+  "name": "server-rework",
+  "version": "2.0.0",
+  "description": "Share here backend server implemented with Apollo server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Sothis-baka",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.3.0",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.7"
+  }
+}
