@@ -12,7 +12,7 @@ const server = new ApolloServer({
     typeDefs,
     resolvers,
     context: ({ req} ) => ({ req }),
-    // allow client side introspection, TODO: set to ture in development
+    // allow client side introspection, TODO: set to false in production mode
     introspection: true,
 });
 

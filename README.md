@@ -48,7 +48,7 @@ Then go to localhost:8000. Apollo Server is running there.
 
 Client deployed at [Heroku](https://share-here-cli.herokuapp.com/)
 
-Server deployed at [Heroku](https://share-here.herokuapp.com/)
+Server deployed at [Heroku](https://share-here-server.herokuapp.com/)
 
 
 
