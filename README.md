@@ -20,7 +20,7 @@ React.js
 
 
 
-### Use
+### Usage
 
 Clone the repo
 
@@ -31,7 +31,8 @@ git clone https://github.com/Sothis-baka/Share_here_client.git
 <span style="color:red;"><u>**You need to set up your mongoDB information and your secret in .env file**</u></span>
 
 ```
-TODO
+SECRET_KEY=
+MONGODB=
 ```
 
 Run
@@ -68,7 +69,7 @@ Server deployed at [Heroku](https://share-here-server.herokuapp.com/)
 
 ### Last update
 
-9/15/2021
+9/22/2021
 
 
 
