@@ -58,6 +58,11 @@ module.exports = gql`
         status: ID!
         reply: Reply
     }
+    
+    type LikeResponse implements ResponseWithStatus{
+        status: ID!
+        like: Boolean
+    }
 
     "Can't use interface directly"
     type SimplifiedResponse implements ResponseWithStatus{
@@ -86,6 +91,6 @@ module.exports = gql`
         "Also remove the reply from user profile"
         deleteReply(replyId: String!): SimplifiedResponse!
 
-        toggleLike(postId: String!): SimplifiedResponse!
+        toggleLike(postId: String!): LikeResponse!
     }
 `;

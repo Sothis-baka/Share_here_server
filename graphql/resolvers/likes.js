@@ -31,7 +31,7 @@ module.exports = {
             await user.save();
             await post.save();
 
-            return { status: 204 };
+            return { status: 204, like: !(uIndex >= 0) };
         }
     }
 }
