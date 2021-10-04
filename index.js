@@ -12,8 +12,8 @@ const server = new ApolloServer({
     typeDefs,
     resolvers,
     context: ({ req} ) => ({ req }),
-    // allow client side introspection, TODO: set to false in production mode
-    introspection: true,
+    // allow client side introspection, should set to false in production mode
+    introspection: false,
 });
 
 mongoose
