@@ -13,6 +13,9 @@ module.exports = {
             const username = userPayload.username;
             const user = await User.findOne({ username });
             const post = await Post.findById(postId);
+			// Post doesn't exist anymore
+			if(!post)
+                return { status: 404 };
 
             const uIndex = user.likes.indexOf(postId);
             const pIndex = post.likes.indexOf(username);
